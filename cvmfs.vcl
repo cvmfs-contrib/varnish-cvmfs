@@ -6,11 +6,6 @@
 
 vcl 4.1;
 
-#backend cvmfs_origin {
-#  .host = "128.142.194.113";
-#  .port = "8000";
-#}
-
 import dynamic;
 
 backend default none;
