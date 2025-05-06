@@ -17,3 +17,11 @@ VARNISH is a reverse proxy by design, but can be run as a forward proxy using th
 ## Deployment Instructions
 
 Under construction.
+
+Resources
+
+* [Varnish presentation at the CernVM workshop '24](https://indico.cern.ch/event/1347727/contributions/5673368/attachments/2927909/5140554/CVMFS%20Workshop%202024%20-vanish%20and%20jump%20combined.pdf)
+
+Contact
+
+Join or contact the  mailinglist cvmfs-varnish-wg _ cern _ ch for discussions. 
