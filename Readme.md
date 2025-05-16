@@ -19,7 +19,7 @@ VARNISH is a reverse proxy by design, but can be run as a forward proxy using th
 The following instructions have been tested on a fresh almalinux 9 box:
 
 
-```
+```sh
 yum update
 yum install varnish
 # on alma 9, currently varnish 6.6
