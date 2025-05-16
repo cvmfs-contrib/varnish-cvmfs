@@ -20,8 +20,8 @@ The following instructions have been tested on a fresh almalinux 9 box:
 
 
 ```sh
-yum update
-yum install varnish
+yum -y update
+yum -y install varnish
 # on alma 9, currently varnish 6.6
 varnishd -V
 yum -y install git
@@ -44,6 +44,7 @@ systemctl start varnish
 systemctl status varnish
 # open firewall if needed 
 firewall-cmd --zone=public --permanent --add-port 6081/tcp
+firewall-cmd --reload
 
 # sanity test
 # you may want to run varnishlog in another terminal to check the activity 
